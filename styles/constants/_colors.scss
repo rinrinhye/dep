@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* 출처
+
+Theme Name: 베이스 템플릿
+Author: WEB Agency DEP by GUPSA
+Author URI: https://teamdep.com/
+Description: 겁쟁이사자들의 웹 에이전시 팀 디이피에서 제작하였습니다.
+Requires at least: 5.3
+Tested up to: 6.2
+Requires PHP: 7.0
+Version: 1.0.0
+*/
+
+$prime-color: #3422fa;
+$second-color: #9b22fa;
+$gradation-color: linear-gradient(to right, $second-color, $prime-color 70%);
+$text-dark: #111111;
+$text-gray: #505050;
+$text-light-gray: #767676;
+$line-dark: #111111;
+$line-light_gray: #e1e1e4;
+$line-soft: #e9e9ed;
+$bg-bold: #f1f1f5;
+$bg-light: #f8f8fa;
+$alert-success: #2ecc71;
+$alert-fali: #e74c3c;
