@@ -1,0 +1,46 @@
+.header {
+  background-color: white;
+  z-index: 100;
+
+  .nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 2.5rem);
+    height: 5rem;
+
+    .logo {
+      width: 4.25rem;
+      height: 1.9375rem;
+
+      a {
+        display: block;
+      }
+    }
+  }
+
+  @include tablet {
+    .nav {
+      width: calc(100% - 5rem);
+      height: 6.25rem;
+
+      .logo {
+        width: 6.1875rem;
+        height: 2.8125rem;
+      }
+    }
+  }
+
+  @include desktop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+
+    .nav {
+      width: 100rem;
+    }
+  }
+}
