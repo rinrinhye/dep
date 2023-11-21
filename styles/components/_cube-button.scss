@@ -1,0 +1,25 @@
+.cube-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  width: 1.625rem;
+  height: 1.625rem;
+
+  .cube-item {
+    width: 0.3125rem;
+    height: 0.3125rem;
+    border-radius: 0.0625rem;
+    background-color: black;
+  }
+
+  @include responsive(M) {
+    gap: 0.3125rem;
+    width: 1.9375rem;
+    height: 1.9375rem;
+
+    .cube-item {
+      width: 0.4375rem;
+      height: 0.4375rem;
+    }
+  }
+}
