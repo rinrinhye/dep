@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* 출처
+
+Theme Name: 베이스 템플릿
+Author: WEB Agency DEP by GUPSA
+Author URI: https://teamdep.com/
+Description: 겁쟁이사자들의 웹 에이전시 팀 디이피에서 제작하였습니다.
+Requires at least: 5.3
+Tested up to: 6.2
+Requires PHP: 7.0
+Version: 1.0.0
+*/
+
+/* PC 폰트사이즈 */
+$p-font-h2: 7.5rem; /* 120px */
+$p-font-h3: 5rem; /* 80px */
+$p-font-h4: 3.75rem; /* 60px */
+$p-font-h5: 3rem; /* 48px */
+$p-font-h6: 2.25rem; /* 36px */
+$p-font-strong: 1.875rem; /* 30px */
+$p-font-span: 1.625rem; /* 26px */
+$p-font-p1: 1.375rem; /* 22px */
+$p-font-p2: 1.125rem; /* 18px*/
+$line-height-h2: 8.75rem; /* 140px */
+$line-height-h3: 6.25rem; /* 100px */
+$line-height-h4: 4.625rem; /* 74px */
+$line-height-h5: 3.875rem; /* 62px */
+$line-height-h6: 3rem; /* 48px */
+$line-height-strong: 2.625rem; /* 42px */
+$line-height-span: 2.25rem; /* 36px */
+$line-height-p1: 2rem; /* 32px */
+$line-height-p2: 1.625rem; /* 26px */
+
+/* 태블릿 폰트사이즈 */
+$t-font-h2: 5rem; /* 80px */
+$t-font-h3: 3.75rem; /* 60px */
+$t-font-h4: 3rem; /* 48px */
+$t-font-h5: 2.5rem; /* 40px */
+$t-font-h6: 1.875rem; /* 30px */
+$t-font-strong: 1.625rem; /* 26px */
+$t-font-span: 1.375rem; /* 22px */
+$t-font-p1: 1.125rem; /* 18px */
+$t-font-p2: 1rem; /* 16px */
+$t-line-height-h2: 6.25rem; /* 100px */
+$t-line-height-h3: 4.625rem; /* 74px */
+$t-line-height-h4: 3.875rem; /* 62px */
+$t-line-height-h5: 3.375rem; /* 54px */
+$t-line-height-h6: 2.625rem; /* 42px */
+$t-line-height-strong: 2.25rem; /* 36px */
+$t-line-height-span: 2rem; /* 32px */
+$t-line-height-p1: 1.625rem; /* 26px */
+$t-line-height-p2: 1.5rem; /* 24px */
+
+/* 모바일 폰트사이즈 */
+$m-font-h2: 3rem; /* 48px */
+$m-font-h3: 2.5rem; /* 40px */
+$m-font-h4: 2.25rem; /* 36px */
+$m-font-h5: 1.875rem; /* 30px */
+$m-font-h6: 1.5rem; /* 24px */
+$m-font-strong: 1.25rem; /* 20px */
+$m-font-span: 1.125rem; /* 18px */
+$m-font-p1: 1rem; /* 16px */
+$m-font-p2: 0.875rem; /* 14px */
+$m-line-height-h2: 3.875rem; /* 62px */
+$m-line-height-h3: 3.375rem; /* 54px */
+$m-line-height-h4: 3rem; /* 48px */
+$m-line-height-h5: 2.625rem; /* 42px */
+$m-line-height-h6: 2.125rem; /* 34px */
+$m-line-height-strong: 1.875rem; /* 30px */
+$m-line-height-span: 1.625rem; /* 26px */
+$m-line-height-p1: 1.5rem; /* 24px */
+$m-line-height-p2: 1.375rem; /* 22px */
