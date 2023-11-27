@@ -1,0 +1,123 @@
+.section-2 {
+  height: 40.625rem;
+
+  .explanation {
+    @include wrapperWidth("mobile");
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &-title {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 18.4375rem;
+      font-size: $m-font-h3;
+      line-height: $m-line-height-h3;
+      font-weight: 700;
+
+      .text-wrap {
+        overflow: hidden;
+      }
+
+      span {
+        height: $m-line-height-h3;
+      }
+    }
+
+    &-text {
+      margin-top: 2.5rem;
+      width: 17.6875rem;
+      align-self: flex-end;
+
+      .emphasis {
+        text-decoration: underline 0.125rem;
+        text-underline-position: under;
+      }
+    }
+
+    .text-en {
+      text-transform: uppercase;
+      font-size: $m-font-h6;
+      line-height: $m-line-height-h6;
+      font-weight: 500;
+    }
+
+    .text-kr {
+      margin-top: 0.5rem;
+      font-size: $m-font-p2;
+      line-height: $m-line-height-p2;
+      color: $text-light-gray;
+    }
+  }
+
+  @include tablet {
+    height: 58.875rem;
+
+    .explanation {
+      @include wrapperWidth("tablet");
+
+      &-title {
+        width: 42.5625rem;
+        font-size: $t-font-h3;
+        line-height: $t-line-height-h3;
+
+        .text-wrap {
+          height: $line-height-h3;
+        }
+      }
+
+      &-text {
+        margin-top: 5rem;
+        width: 35.625rem;
+      }
+
+      .text-en {
+        font-size: $t-font-h6;
+        line-height: $t-line-height-h6;
+      }
+
+      .text-kr {
+        display: inline-block;
+        margin-top: 1rem;
+        font-size: $t-font-p2;
+        line-height: $t-line-height-p2;
+
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  @include desktop {
+    .explanation {
+      @include wrapperWidth("desktop");
+
+      &-title {
+        width: 62.4375rem;
+        font-size: $p-font-h3;
+        line-height: $line-height-h3;
+      }
+
+      &-text {
+        margin-top: 6.25rem;
+        width: 49.375rem;
+        padding-right: 5.375rem;
+      }
+
+      .text-en {
+        font-size: $p-font-h6;
+        line-height: $line-height-h6;
+      }
+
+      .text-kr {
+        margin-top: 1.25rem;
+        font-size: $p-font-p2;
+        line-height: $line-height-p2;
+      }
+    }
+  }
+}
