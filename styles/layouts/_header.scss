@@ -3,11 +3,12 @@
   z-index: 100;
 
   .nav {
+    @include wrapperWidth("mobile");
+
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 2.5rem);
     height: 5rem;
 
     .logo {
@@ -22,7 +23,7 @@
 
   @include tablet {
     .nav {
-      width: calc(100% - 5rem);
+      @include wrapperWidth("tablet");
       height: 6.25rem;
 
       .logo {
@@ -40,7 +41,7 @@
     background-color: transparent;
 
     .nav {
-      width: 100rem;
+      @include wrapperWidth("desktop");
     }
   }
 }
