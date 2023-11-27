@@ -1,0 +1,118 @@
+.section-1 {
+  position: relative;
+  height: 125rem;
+  text-align: center;
+
+  .introduce-title > strong,
+  .scroll-keyword-list {
+    font-weight: 700;
+    font-size: $m-font-h3;
+    line-height: $m-line-height-h3;
+  }
+
+  .introduce-wrapper {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20%;
+    transform: translateY(100%);
+
+    .introduce {
+      margin-bottom: 6.25rem;
+
+      &-title {
+        font-size: $m-font-strong;
+        line-height: $m-line-height-strong;
+      }
+
+      &-text {
+        margin-top: 0.5rem;
+
+        span {
+          display: block;
+          font-size: $m-font-strong;
+          line-height: $m-line-height-strong;
+        }
+      }
+    }
+  }
+
+  .scroll-keyword-list {
+    display: flex;
+    flex-direction: column;
+
+    .scroll-keyword-item {
+      margin-top: 2rem;
+      width: 100%;
+    }
+  }
+
+  @include tablet {
+    height: 168.75rem;
+
+    .introduce-title > strong,
+    .scroll-keyword-list {
+      font-weight: 700;
+      font-size: $t-font-h3;
+      line-height: $t-line-height-h3;
+    }
+
+    .introduce-wrapper {
+      .introduce {
+        &-title {
+          font-size: $t-font-strong;
+          line-height: $t-line-height-strong;
+        }
+
+        &-text {
+          span {
+            display: block;
+            font-size: $t-font-strong;
+            line-height: $t-line-height-strong;
+          }
+        }
+      }
+    }
+
+    .scroll-keyword-list {
+      .scroll-keyword-item {
+        margin-top: 3.75rem;
+      }
+    }
+  }
+
+  @include desktop {
+    height: 250rem;
+
+    .introduce-title > strong,
+    .scroll-keyword-list {
+      font-weight: 700;
+      font-size: $p-font-h3;
+      line-height: $line-height-h3;
+    }
+
+    .introduce-wrapper {
+      .introduce {
+        &-title {
+          font-size: $p-font-strong;
+          line-height: $line-height-strong;
+        }
+
+        &-text {
+          span {
+            display: block;
+            font-size: $p-font-strong;
+            line-height: $line-height-strong;
+          }
+        }
+      }
+    }
+
+    .scroll-keyword-list {
+      .scroll-keyword-item {
+        margin-top: 6.25rem;
+      }
+    }
+  }
+}
