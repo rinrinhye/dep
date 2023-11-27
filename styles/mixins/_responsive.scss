@@ -5,7 +5,19 @@
 }
 
 @mixin desktop() {
-  @media screen and (min-width: 60rem) {
+  @media screen and (min-width: 64rem) {
     @content;
+  }
+}
+
+@mixin wrapperWidth($size) {
+  @if ($size == "mobile") {
+    width: calc(100% - 2.5rem);
+  }
+  @if ($size == "tablet") {
+    width: calc(100% - 5rem);
+  }
+  @if ($size == "desktop") {
+    width: 100rem;
   }
 }
