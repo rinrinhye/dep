@@ -20,6 +20,9 @@
   overflow-wrap: break-word;
   word-break: break-word;
   tab-size: 4;
+  // font-family: "Noto Sans KR", sans-serif;
+  // font-family: "Roboto", sans-serif;
+  font-family: "pretendard", "Roboto";
 }
 
 img,
@@ -42,6 +45,12 @@ a {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
 }
 
 /* 
